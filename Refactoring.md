@@ -9,3 +9,4 @@ You've been asked to refactor the function `deterministicPartitionKey` in [`dpk.
 You will be graded on the exhaustiveness and quality of your unit tests, the depth of your refactor, and the level of insight into your thought process provided by the written explanation.
 
 ## Your Explanation Here
+I made the choices to have the code refectored as such because there were too many nested if/else blocks. The refactored code is much more easier to read syntactically because of the introduction of ternary operator which helped to shorten and remove the nested if/esle block statements. It's also easier to read because each block statements now does only one operation as opposed to doing many in on if block statement.
